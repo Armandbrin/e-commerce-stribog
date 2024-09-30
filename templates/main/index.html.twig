@@ -1,0 +1,25 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Accueil
+{% endblock %}
+
+{% block body %}
+	<main class="mt-[15vh] max-w-[1280px] ml-auto mr-auto p-[16px]">
+		<div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+			<a href="#">
+				<img class="rounded-t-lg max-w-sm ml-auto mr-auto py-3 border-b-2 border-gray-200" src="{{ asset('/img/FC25ps5.jpg') }}" alt=""/>
+			</a>
+			<div class="p-3">
+				<a href="#">
+					<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-center">EA SPORTS FC 25 PS5</h5>
+				</a>
+				<a href="#" class="flex justify-center gap-1 items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#a504c7] rounded-lg hover:bg-[#f11ac9] focus:ring-4 focus:outline-none focus:ring-[#a504c7]">
+					<svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 14 10">
+						<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+					</svg>
+					Ajouter au panier
+				</a>
+			</div>
+		</div>
+	</main>
+{% endblock %}
